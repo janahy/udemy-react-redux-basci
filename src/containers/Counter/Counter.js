@@ -3,23 +3,7 @@ import { connect } from 'react-redux';
 import './Counter.css'
 
 class Counter extends React.Component {
-
-    state= {
-        counter: 0
-    }
-
-    increment = () => {
-        this.setState({
-            counter: this.state.counter + 1
-        });
-    };
-
-    decrement = () => {
-        this.setState({
-            counter: this.state.counter - 1
-        });
-    };
-
+    
     render () {
         return (
             <div style={{

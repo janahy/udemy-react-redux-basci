@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /home/yjanah/.yarn/bin/yarn.js start
+
+PATH: 
+  /home/yjanah/.yarn/bin:/home/yjanah/.config/yarn/global/node_modules/.bin:/home/yjanah/bin:/home/yjanah/.local/bin:/home/yjanah/.yarn/bin:/home/yjanah/.config/yarn/global/node_modules/.bin:/home/yjanah/bin:/home/yjanah/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  13.4.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "exercie-redux",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-redux": "^7.1.3",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "^1.0.13",
+      "redux": "^4.0.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c react-scripts start
+  Directory: /integra/pocs/projects/ria-rwd/react/redux-basic
+  Output:
+  
+      at ProcessTermError.MessageError (/home/yjanah/.yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/home/yjanah/.yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/home/yjanah/.yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:304:20)
+      at maybeClose (internal/child_process.js:1028:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
